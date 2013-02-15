@@ -2,7 +2,7 @@
 /*!
  * DynamicDummy
  * Generate random placeholders to test how variation affects an HTML design
- * @version 1.0
+ * @version 1.1
  * @author Xavi Esteve (http://xaviesteve.com)
  */
 Class DynamicDummy {
@@ -38,6 +38,15 @@ Class DynamicDummy {
 	public function weekday() {
 		$days = array('mon','tue','wed','thu','fri','sat','sun');
 		return $days[mt_rand(0,sizeof($days)-1)];
+	}
+
+
+	/**
+	 * Image
+	 * @returns (string) URL to a random image
+	 */
+	public function image($path='') {
+		return $path.'dummyimages/'.mt_rand(1,9).'.png';
 	}
 }
 $d = new DynamicDummy;
