@@ -8,13 +8,13 @@ Methods
 
 ### Color
 <pre>$d->color();</pre>
-Returns an color: <code>#FB7A20</code>.
+Returns a color: <code>#FB7A20</code>
 
 ### Words
 <pre>$d->words(2, 6);</pre>
-Returns a sentence: <code>Learn never since</code>.
+Returns a sentence: <code>Learn never since</code>
 
 ### Weekday
 <pre>$d->weekday();</pre>
-Returns a day of the week: <code>thu</code>.
+Returns a day of the week: <code>thu</code>
 
